@@ -1,4 +1,58 @@
 baseURL = "https://douek.github.io.git"
 languageCode = "en-us"
-title = "Developreit"
+title = "Developerit"
 theme = "amprage"
+
+
+# Number of posts shown per page
+paginate = 2
+
+pygmentsUseClasses = true
+
+# Language sections
+[languages]
+    [languages.en]
+        contentDir = "content"
+        languageName = "English"
+        languageCode = "en"
+        title = "Developerit"
+        description = "My blog :)"
+        weight = 1
+
+
+# Menu elements
+[[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 10
+
+# Enable only tags taxonomy
+[taxonomies]
+    tag = "tags"
+
+[params]
+    copyright = "douek" # Name shown on footer copyright
+    themeColor = "#d93468" # Theme color displayed on mobile browsers
+
+    # Default AMP components for the whole site
+    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-iframe"]
+
+    # Google Analytics code
+    googleAnalytics = "UA-163942409-1"
+
+    # Comments Iframe URL
+    commentsEmbedUrl = "https://comments.example.com"
+
+    alternatePageName = "Amperage example"
+    organizationLogo = "/logo.png"
+
+    publisherName = "Daniel"
+    publisherLogo = "/logo-amp-article.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60
