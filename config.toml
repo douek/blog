@@ -1,0 +1,4 @@
+baseURL = "https://douek.github.io.git"
+languageCode = "en-us"
+title = "Developreit"
+theme = "amprage"

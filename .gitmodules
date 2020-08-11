@@ -1,0 +1,3 @@
+[submodule "themes/amprage"]
+	path = themes/amprage
+	url = https://github.com/asurbernardo/amperage.git
